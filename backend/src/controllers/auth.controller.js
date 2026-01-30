@@ -1,3 +1,5 @@
+import User from "../models/User.js";
+
 export const signup = async (req, res) => {
   const {fullName, email, password } = req.body;
 
@@ -16,6 +18,6 @@ export const signup = async (req, res) => {
         return res.status(400).json({ message: "Please provide a valid email address "});
     }
 
-    //
-  } catch (error) {}
+    const user = await User.findOne({ email });
+  } catch (error) {}  
 } 
