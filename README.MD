@@ -1,11 +1,17 @@
 
 # 💬 Full-Stack Real-Time Chat Application
-
-<h1 align="center">✨ Full-Stack Chat App with Authentication & Email Notifications ✨</h1>
-
+# Full-Stack Chat App with Authentication & Email Notifications ✨
 <p align="center">
-A modern real-time messaging platform built with the <b>MERN stack</b>, featuring secure authentication, WebSocket communication, media sharing, and email integration.
+
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![Express](https://img.shields.io/badge/Express.js-Framework-black)
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
+![Socket.io](https://img.shields.io/badge/Socket.io-Realtime-black)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 </p>
+A modern real-time messaging platform built with the <b>MERN stack</b>, featuring secure authentication, WebSocket communication, media sharing, and email integration.
 
 ---
 
